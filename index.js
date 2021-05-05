@@ -40,7 +40,7 @@ asyncFunc = async () => {
     await asyncSetInter('counterH1').then(
         (data) => console.log(data)
     )
-    await showHinh('imgDIV', 'https://www.pngitem.com/pimgs/m/2-23958_angry-birds-png-transparent-background-angry-birds-png.png').then(
+    await showHinh('imgDIV', 'https://i.ya-webdesign.com/images/angry-bird-png-6.png').then(
         (data) => console.log(data)
     )
     await setTOFunc(3000).then(
